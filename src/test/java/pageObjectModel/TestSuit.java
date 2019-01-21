@@ -52,6 +52,7 @@ public class TestSuit extends BaseTest
 @Test
     public void userShouldBeAbleToSortByPriceHighToLow()
     {
+        fullPageScreenShot();
         homePage.clickOnNotbooks();
         productPage.productSortByHighToLow();
         boolean isHighToLow  = productPage.isPriceHighToLow();
